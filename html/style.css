@@ -1,0 +1,88 @@
+/* =========================
+   Base Styles
+   ========================= */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* =========================
+   Header Styles
+   ========================= */
+header {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid black; /* ID selector effect visible */
+}
+
+/* =========================
+   Section Styles
+   ========================= */
+section {
+    margin: 20px;
+}
+
+/* =========================
+   Footer Styles
+   ========================= */
+footer {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* =========================
+   Element Selector
+   ========================= */
+h2 {
+    color: black;
+}
+
+/* =========================
+   Class Selector
+   ========================= */
+.highlight {
+    background-color: orange;
+    color: white;
+    padding: 4px;
+}
+
+/* =========================
+   Attribute Selector
+   ========================= */
+a[href^="mailto"] {
+    color: orange;
+}
+
+/* =========================
+   Pseudo-class Selector
+   ========================= */
+a:hover {
+    color: white;
+}
+
+/* =========================
+   Pseudo-element Selector
+   ========================= */
+p::first-line {
+    font-weight: bold;
+}
+
+/* =========================
+   Combinator Selector
+   ========================= */
+header + main {
+    border-top: 2px solid black;
+}
+
+/* =========================
+   Cascade & Specificity
+   ========================= */
+h1 {
+    color: green !important;
+}
+
+p {
+    color: red;
+}
